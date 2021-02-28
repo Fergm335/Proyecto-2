@@ -1,0 +1,90 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: #7a7a7a;
+}
+.areaPrincipal {
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
+    opacity: 0.7;
+    -webkit-background-size: 100% 100%;
+    /* Safari 3.0 */
+    -moz-background-size: 100% 100%;
+    /* Gecko 1.9.2 (Firefox 3.6) */
+    -o-background-size: 100% 100%;
+    /* Opera 9.5 */
+    background-size: 100% 100%;
+    /* Gecko 2.0 (Firefox 4.0) and other CSS3-compliant browser */
+}
+#encabezado {
+    background: #d0e6f8;
+    height: 240px;
+    text-align: center;
+    background-image: url("https://www.muycomputerpro.com/wp-content/uploads/2019/09/pwa.jpeg");
+    background-repeat: repeat;
+    background-size: 400px 200px;
+}
+#menu{
+    height: 40px;
+    position: relative;
+    top: 200px;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+}
+ul li a{
+    height: 60px;   /*Altura*/
+    background-color: #333; /*color de fondo*/
+    display: block;
+    border-left: 10px solid rgb(8, 96, 179);
+    border-right: 5px solid rgb(144, 253, 111);
+    padding-left: 15px; /*separación izquierda del texto*/
+    text-decoration: none;
+    color: #bfe1f1;
+}
+ul li{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  /*Tipo de letra*/
+    font-size: 20px;  /*tamaño de letra*/
+    height: 40px;  /*Altura de cada opción de la lista*/
+}
+li{
+    float: left;
+}
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+}
+ul li a:hover{
+    margin-left: 10px; /*separación del lado izquierda*/
+    color: #a418e6; /*color de letra*/
+    background-color: #0b1741; /*color de fondo*/
+    box-shadow: 10px 10px 20px #000; /*sombra*/
+    transform: rotate(4deg); /*movimiento de rotación*/
+    -moz-transform: rotate(4deg);
+    -webkit-transform: rotate(4deg);
+}
+#datos {
+    width: 80%;
+    background-color: #88e94f;
+    height: auto;
+    margin: auto;
+    opacity: 1;
+    color: #070707;
+    padding: 10px;
+    border: 1px solid #95A5A6;
+    border-radius: 15px;
+    border: solid 2px #95A5A6;
+    border-radius: 15px 0px 15px 0px;
+    box-shadow: 2px 2px 5px #F5B7B1;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
